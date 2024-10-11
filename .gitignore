@@ -2,3 +2,12 @@ venv
 .env
 *.session
 *.csv
+notebooks/cleaned_data
+images
+notebooks/scraped_images
+notebooks/sraped_texts
+notebooks/texts
+notebooks/medical_businesses_scraped_data.csv
+
+texts
+notebooks/sraped_texts
