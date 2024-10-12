@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: combined_cleaned_data
+    description: "Cleaned data combined from all Telegram channels"
+    columns:
+      - name: message_id
+        description: "The unique identifier for each message"
+        tests:
+          - unique
+          - not_null
+      - name: sender_id
+        description: "ID of the sender"
+      - name: date
+        description: "Date of the message"
+        tests:
+          - not_null
+      - name: message
+        description: "The content of the message"
+      - name: image_path
+        description: "Path to the image file if available"

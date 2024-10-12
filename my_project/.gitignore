@@ -1,0 +1,6 @@
+
+target/
+dbt_packages/
+logs/
+.env
+seeds/combined_cleaned_data.csv
