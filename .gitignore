@@ -8,6 +8,8 @@ notebooks/scraped_images
 notebooks/sraped_texts
 notebooks/texts
 notebooks/medical_businesses_scraped_data.csv
-
 texts
-notebooks/sraped_texts
+notebooks/detected_images
+notebooks/detection_results.csv
+yolov5s.pt
+my_project/yolov5

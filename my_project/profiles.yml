@@ -1,4 +1,4 @@
-datawarehouse:  # This is the profile name used in your dbt_project.yml file
+datawarehouse:  
   outputs:
     dev:
       type: postgres
